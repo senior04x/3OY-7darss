@@ -1,0 +1,37 @@
+html{
+  box-sizing: border-box;
+}
+*,*::before,*::after{
+  box-sizing: inherit;
+  font-family: "Fraunces", serif;
+}
+body{
+  margin: 0;
+ 
+}
+ul,ol{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a,button{
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+h1,h2,h3,h4,p{
+  margin: 0;
+}
+.container{
+  max-width: 1440px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+:root{
+  --second-family: "Barlow";
+}

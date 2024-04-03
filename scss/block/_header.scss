@@ -1,0 +1,45 @@
+.main__header{
+    padding: 24px 24px;
+}
+.header__block{
+    display: flex;
+    justify-content: space-between;
+}
+.header__img_block{
+    width: 163px;
+}
+.header__btn{
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url('../img/menu.svg');
+}
+.header__list{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .main__header{
+        padding: 40px;
+        
+    }
+    .header__img_block{
+        width: 236px;
+    }
+    .header__btn{
+       display: none;
+    }
+    .header__list{
+        display: flex;
+        gap: 33px;
+    }
+    .header__link{
+        font-family: "Barlow", sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 125%;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #83888f;
+    }
+}
+
