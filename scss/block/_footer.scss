@@ -1,5 +1,6 @@
 .main__footer{
     padding: 0 24px;
+    margin-top: 120px;
 }
 .footer__block{
     text-align: center;
@@ -31,6 +32,7 @@ color: #83888f;
 @media screen and (min-width: 768px) {
     .main__footer{
         padding: 0 40px;
+        margin-top: 144px;
     }
     .footer__list{
         display: inline-flex;
@@ -42,6 +44,7 @@ color: #83888f;
 @media screen and (min-width:1100px) {
     .main__footer{
         padding: 0 80px;
+        margin-top: 168px;
     }
     .footer__block{
         display: flex;
@@ -66,5 +69,6 @@ color: #83888f;
    .footer__item{
     margin: 0;
    }
+
 
 }

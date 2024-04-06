@@ -34,8 +34,8 @@ font-weight: 400;
 font-size: 16px;
 color: #333d4b;
 }
-.service__item:last-child{
-    margin-bottom: 80px;
+.service__item:not(:last-child){
+    padding-bottom: 56px;
 }
 @media screen and (min-width:768px) {
     .service{

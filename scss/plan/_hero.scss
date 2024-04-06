@@ -1,0 +1,28 @@
+.plan__hero_block{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../img/plan-hero.png');
+    padding: 101px 24px 136px 24px;
+    text-align: center;
+    border-radius: 10px;
+}
+@media screen and (min-width:768px) {
+    .plan__hero_block{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('../../img/plan-hero-tablet.png');
+        padding: 127px 233px 126px 58px;
+        text-align: start;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width:1100px) {
+    .plan__hero_block{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('../../img/plan-hero-desktop.png');
+        padding: 134px 709px 134px 85px;
+        text-align: start;
+        border-radius: 10px;
+    }
+}
